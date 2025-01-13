@@ -1,8 +1,0 @@
-fancontrol-gui-git
-google-chrome-beta
-heidisql
-pyprland
-v4l2loopback-dc-dkms
-visual-studio-code-bin
-wallust
-wttrbar
