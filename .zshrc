@@ -1,0 +1,1 @@
+estudos/dotfiles/zsh/.zshrc
