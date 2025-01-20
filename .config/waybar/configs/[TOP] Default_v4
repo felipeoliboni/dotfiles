@@ -1,6 +1,3 @@
-/* github.com/felipeoliboni */
-
-// ### DEFAULT v4 (Laptop)  - Top ### //
 {
 "include": [
   "$HOME/.config/waybar/Modules",
@@ -30,14 +27,14 @@
 	],
 
 "modules-center": [
-//	"custom/swaync",
+	// "custom/swaync",
 	"custom/cava_mviz",
 	"custom/separator#dot-line",
 	"clock",
 	"custom/separator#line",
 	"hyprland/workspaces#pacman",
 	"custom/separator#dot-line",
-	"idle_inhibitor",	
+	// "idle_inhibitor",	
 	], 
 
 "modules-right": [
@@ -45,7 +42,7 @@
 	"group/connections",
 	"custom/separator#line",
 	"tray",
-	"mpris", 
+	// "mpris", 
 	"group/audio",
 	"custom/separator#dot-line",
 	"group/status",
