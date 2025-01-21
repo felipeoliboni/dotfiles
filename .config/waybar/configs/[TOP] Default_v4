@@ -20,6 +20,7 @@
 
 "modules-left": [
 	"group/app_drawer",
+    "custom/updates",
 	"custom/separator#dot-line",
 	"group/mobo_drawer",
 	"custom/separator#line",
@@ -33,8 +34,6 @@
 	"clock",
 	"custom/separator#line",
 	"hyprland/workspaces#pacman",
-	"custom/separator#dot-line",
-	// "idle_inhibitor",	
 	], 
 
 "modules-right": [
@@ -47,4 +46,7 @@
 	"custom/separator#dot-line",
 	"group/status",
 	],
+
+
+    
 }
