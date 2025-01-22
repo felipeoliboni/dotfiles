@@ -2,6 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 export ZSH="$HOME/.oh-my-zsh"
+export DOCKER_BUILDKIT=1
 
 ZSH_THEME="gozilla"
 
