@@ -1,6 +1,10 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
 
+-- Garantir que as aspas e outros caracteres não sejam ocultados
+vim.opt.conceallevel = 0
+vim.opt.concealcursor = 'n'  -- Evita esconder no modo normal
+
 vim.opt.relativenumber = false -- Desativa números relativos
 vim.opt.number = true -- Mostra apenas os números das linhas
 vim.opt.mouse = "a" -- Ativa o mouse em todos os modos
