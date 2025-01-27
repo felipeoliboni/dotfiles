@@ -5,3 +5,4 @@
 2025-01-27 18:57:05.457 [info] Settings Sync: Token updated for the account felipeoliboni
 2025-01-27 18:57:05.564 [info] Settings Sync: Account status changed from uninitialized to available
 2025-01-27 18:57:06.339 [info] [perf] Render performance baseline is 84ms
+2025-01-27 18:59:00.726 [warning] Settings pattern "issueReporter.*" doesn't match any settings

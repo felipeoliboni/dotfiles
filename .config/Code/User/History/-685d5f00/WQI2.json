@@ -46,5 +46,4 @@
 "editor.glyphMargin": false,
 "editor.showFoldingControls": "never",
 "workbench.activityBar.location": "hidden",
-"window.commandCenter": false,
 }

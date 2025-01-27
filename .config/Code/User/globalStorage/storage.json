@@ -1843,8 +1843,8 @@
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
-            "titleBarHeight": 35,
-            "activityBarWidth": 48,
+            "titleBarHeight": 30,
+            "activityBarWidth": 0,
             "sideBarWidth": 225,
             "statusBarHeight": 0,
             "windowBorder": false
@@ -1864,5 +1864,5 @@
         },
         "openedWindows": []
     },
-    "windowControlHeight": 35
+    "windowControlHeight": 30
 }
