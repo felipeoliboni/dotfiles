@@ -1,0 +1,9 @@
+#kubenews
+#KUBENEWS_TAG=v2
+
+#postgres
+POSTGRES_TAG=12.17
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=admin
+POSTGRES_DB=postgres
+

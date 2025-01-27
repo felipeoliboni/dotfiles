@@ -1,0 +1,4 @@
+#Git
+
+git checkout -b branch - cria nova branch e muda para ela
+git merge branch        

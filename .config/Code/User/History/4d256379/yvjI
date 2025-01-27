@@ -1,0 +1,11 @@
+FROM node
+
+WORKDIR /app
+
+COPY ./src/package.json .
+
+RUN npm install
+
+COPY ./src ./app
+
+EXPOSE 8080

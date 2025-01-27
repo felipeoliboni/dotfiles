@@ -1,0 +1,33 @@
+{
+  "workbench.colorTheme": "Default Dark Modern",
+  "explorer.confirmDelete": false,
+  "editor.fontFamily": "'Source Code Pro'",
+  "editor.fontSize": 16,
+  "git.confirmSync": false,
+  "redhat.telemetry.enabled": true,
+  "vs-kubernetes": {
+    "disable-linters": ["resource-limits"],
+    "vscode-kubernetes.helm-path.linux": "/home/felipe/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.kubectl-path.linux": "/home/felipe/.local/state/vs-kubernetes/tools/kubectl/kubectl",
+    "vscode-kubernetes.minikube-path.linux": "/home/felipe/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube",
+    "vs-kubernetes.minikube-show-information-expiration": "2024-04-20T23:07:11.926Z",
+    "vscode-kubernetes.helm-path-linux": "/home/felipe/.local/state/vs-kubernetes/tools/helm/linux-amd64/helm",
+    "vscode-kubernetes.minikube-path-linux": "/home/felipe/.local/state/vs-kubernetes/tools/minikube/linux-amd64/minikube"
+  },
+  "githubPullRequests.createOnPublishBranch": "never",
+  "terminal.integrated.cursorStyle": "underline",
+  "vscord.app.name": "Visual Studio Code",
+  "editor.inlineSuggest.enabled": true,
+  "workbench.startupEditor": "none",
+  "explorer.confirmDragAndDrop": false,
+  "tabnine.experimentalAutoImports": true,
+  "git.openRepositoryInParentFolders": "never",
+"security.workspace.trust.untrustedFiles": "open",
+  "cSpell.userWords": ["foliboni"],
+  "git.enableSmartCommit": true,
+  "git.autofetch": true,
+"editor.detectIndentation": false,
+"editor.minimap.enabled": false,
+"window.confirmSaveUntitledWorkspace": false,
+"workbench.iconTheme": "easy-icons"
+}

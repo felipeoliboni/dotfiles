@@ -1,0 +1,9 @@
+2025-01-27 18:19:29.134 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:19:29.134 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:19:29.135 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:19:29.984 [info] Started local extension host with pid 8931.
+2025-01-27 18:19:34.989 [info] Settings Sync: Token updated for the account felipeoliboni
+2025-01-27 18:19:35.376 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-27 18:19:37.421 [info] [perf] Render performance baseline is 83ms
+2025-01-27 18:20:58.004 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:21:16.524 [warning] [backup tracker] suspended, ignoring unregister event file:///home/felipe/blackhole/notas/notes/kubernetes.md 

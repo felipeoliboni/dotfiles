@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: app-env
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: app-env
+  template:
+    metadata:
+      labels:
+        app: app-env
+    spec:
+      containers:
+      - name: app-env
+        image: kubedevio/app-variaveis-ambiente:v1
+        ports:
+        - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: app-env
+spec:
+  selector:
+    app: app-env
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 3000
+      name: http
+  type: NodePort

@@ -1,0 +1,15 @@
+#Dockerfile para o conversos em js
+
+FROM node:20.18.1-alpine3.21
+
+WORKDIR /app
+
+COPY ./app-conversor/package.json .
+
+RUN npm install
+
+COPY ./app-conversor .
+
+EXPOSE 8080
+
+ENTRYPOINT ["node", "server.js"]

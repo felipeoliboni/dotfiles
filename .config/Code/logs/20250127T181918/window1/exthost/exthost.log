@@ -1,0 +1,10 @@
+2025-01-27 18:19:22.472 [info] Extension host with pid 8486 started
+2025-01-27 18:19:22.472 [info] Skipping acquiring lock for /home/felipe/.config/Code/User/workspaceStorage/40f68026ca6ffcff7af8a29f9a5df10a.
+2025-01-27 18:19:23.765 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2025-01-27 18:19:23.879 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2025-01-27 18:19:23.923 [info] ExtensionService#_doActivateExtension redhat.vscode-yaml, startup: false, activationEvent: 'onLanguage:yaml', root cause: ms-kubernetes-tools.vscode-kubernetes-tools
+2025-01-27 18:19:24.272 [info] ExtensionService#_doActivateExtension vscode.markdown-language-features, startup: false, activationEvent: 'onWebviewPanel:markdown.preview'
+2025-01-27 18:19:24.816 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2025-01-27 18:19:24.848 [info] ExtensionService#_doActivateExtension ms-kubernetes-tools.vscode-kubernetes-tools, startup: false, activationEvent: 'onLanguage:yaml'
+2025-01-27 18:19:26.148 [info] Extension host terminating: renderer closed the MessagePort
+2025-01-27 18:19:26.162 [info] Extension host with pid 8486 exiting with code 0

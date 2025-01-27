@@ -1,0 +1,14 @@
+2025-01-27 18:19:42.614 [warning] /home/felipe/.ssh/config: ENOENT: no such file or directory, open '/home/felipe/.ssh/config'
+2025-01-27 18:19:42.614 [info] Activation> Extension version: 0.102.0
+2025-01-27 18:19:45.570 [info] Looking for git repository
+2025-01-27 18:19:45.570 [info] Found 0 repositories during activation
+2025-01-27 18:19:45.570 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-27 18:19:45.576 [info] Registering git provider
+2025-01-27 18:19:45.576 [info] Review+0> Validate state in progress
+2025-01-27 18:19:45.576 [info] Review+0> Validating state...
+2025-01-27 18:19:45.576 [warning] No remotes found. The following remotes are missing: origin, upstream
+2025-01-27 18:19:45.576 [info] No GitHub remotes found for folder /home/felipe/blackhole/notas
+2025-01-27 18:19:45.579 [info] Trying to use globalState for assignableUsers.
+2025-01-27 18:19:45.618 [info] Review+0> No matching pull request metadata found locally for current branch main
+2025-01-27 18:19:45.619 [info] Review+0> No matching pull request metadata found on GitHub for current branch main
+2025-01-27 18:19:45.727 [info] GlobalState does not exist for assignableUsers.

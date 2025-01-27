@@ -1,0 +1,165 @@
+2025-01-27 18:21:22.404 [info] Deleted uninstalled extension from disk ms-kubernetes-tools.vscode-kubernetes-tools /home/felipe/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.18
+2025-01-27 18:21:22.442 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.18.-94cb5f3.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/ms-kubernetes-tools.vscode-kubernetes-tools-1.3.18.-94cb5f3.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:23:27.871 [info] Getting Manifest... atzinescandia.theplumup
+2025-01-27 18:23:27.928 [info] Installing extension: atzinescandia.theplumup {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/felipe/.vscode/extensions/extensions.json","path":"/home/felipe/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-27 18:23:31.633 [info] Extension signature verification result for atzinescandia.theplumup: UnknownError. Executed: true. Duration: 12ms.
+2025-01-27 18:23:31.725 [info] Extracted extension to file:///home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4: atzinescandia.theplumup
+2025-01-27 18:23:31.731 [info] Renamed to /home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4
+2025-01-27 18:23:31.801 [info] Extension installed successfully: atzinescandia.theplumup vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:23:31.818 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:23:42.657 [info] Uninstalling extension from the profile: atzinescandia.theplumup@0.0.4 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:23:42.719 [info] Marked extension as uninstalled atzinescandia.theplumup-0.0.4
+2025-01-27 18:23:42.787 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:23:43.080 [info] Successfully uninstalled extension from the profile atzinescandia.theplumup@0.0.4 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:25:07.157 [info] Getting Manifest... dracula-theme.theme-dracula
+2025-01-27 18:25:07.238 [info] Installing extension: dracula-theme.theme-dracula {"isMachineScoped":false,"installPreReleaseVersion":false,"pinned":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/felipe/.vscode/extensions/extensions.json","path":"/home/felipe/.vscode/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true,"isApplicationScoped":false,"productVersion":{"version":"1.96.4","date":"2025-01-16T00:16:19.038Z"}}
+2025-01-27 18:25:07.805 [info] Extension signature verification result for dracula-theme.theme-dracula: UnknownError. Executed: true. Duration: 16ms.
+2025-01-27 18:25:07.846 [info] Extracted extension to file:///home/felipe/.vscode/extensions/dracula-theme.theme-dracula-2.25.1: dracula-theme.theme-dracula
+2025-01-27 18:25:07.851 [info] Renamed to /home/felipe/.vscode/extensions/dracula-theme.theme-dracula-2.25.1
+2025-01-27 18:25:07.915 [info] Extension installed successfully: dracula-theme.theme-dracula vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:25:07.956 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:08.774 [info] Uninstalling extension from the profile: ms-dotnettools.vscode-dotnet-runtime@2.2.5 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:08.774 [info] Uninstalling extension from the profile: ms-dotnettools.csdevkit@1.15.34 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:08.774 [info] Uninstalling extension from the profile: ms-dotnettools.csharp@2.61.28 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:08.774 [info] Extensions is already requested to uninstall ms-dotnettools.csdevkit
+2025-01-27 18:28:08.851 [info] Marked extension as uninstalled ms-dotnettools.vscode-dotnet-runtime-2.2.5
+2025-01-27 18:28:08.860 [info] Marked extension as uninstalled ms-dotnettools.csdevkit-1.15.34-linux-x64
+2025-01-27 18:28:08.867 [info] Marked extension as uninstalled ms-dotnettools.csharp-2.61.28-linux-x64
+2025-01-27 18:28:08.918 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:09.286 [info] Successfully uninstalled extension from the profile ms-dotnettools.vscode-dotnet-runtime@2.2.5 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:09.287 [info] Successfully uninstalled extension from the profile ms-dotnettools.csdevkit@1.15.34 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:09.287 [info] Successfully uninstalled extension from the profile ms-dotnettools.csharp@2.61.28 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:14.156 [info] Uninstalling extension from the profile: ms-vscode-remote.remote-containers@0.394.0 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:14.216 [info] Marked extension as uninstalled ms-vscode-remote.remote-containers-0.394.0
+2025-01-27 18:28:14.284 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:14.384 [info] Successfully uninstalled extension from the profile ms-vscode-remote.remote-containers@0.394.0 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:27.343 [info] Uninstalling extension from the profile: jamesmaj.easy-icons@0.3.1 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:27.396 [info] Marked extension as uninstalled jamesmaj.easy-icons-0.3.1
+2025-01-27 18:28:27.465 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:27.652 [info] Successfully uninstalled extension from the profile jamesmaj.easy-icons@0.3.1 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:30.921 [info] Uninstalling extension from the profile: dbaeumer.vscode-eslint@3.0.10 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:30.970 [info] Marked extension as uninstalled dbaeumer.vscode-eslint-3.0.10
+2025-01-27 18:28:31.039 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:31.144 [info] Successfully uninstalled extension from the profile dbaeumer.vscode-eslint@3.0.10 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:35.655 [info] Uninstalling extension from the profile: github.vscode-pull-request-github@0.102.0 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:35.699 [info] Marked extension as uninstalled github.vscode-pull-request-github-0.102.0
+2025-01-27 18:28:35.768 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:35.945 [info] Successfully uninstalled extension from the profile github.vscode-pull-request-github@0.102.0 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:39.723 [info] Uninstalling extension from the profile: eamodio.gitlens@16.2.1 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:39.774 [info] Marked extension as uninstalled eamodio.gitlens-16.2.1
+2025-01-27 18:28:39.836 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:40.042 [info] Successfully uninstalled extension from the profile eamodio.gitlens@16.2.1 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:42.874 [info] Uninstalling extension from the profile: ecmel.vscode-html-css@2.0.13 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:42.905 [info] Marked extension as uninstalled ecmel.vscode-html-css-2.0.13
+2025-01-27 18:28:42.975 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:43.116 [info] Successfully uninstalled extension from the profile ecmel.vscode-html-css@2.0.13 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:49.561 [info] Uninstalling extension from the profile: petersteiner.pip-installer@0.0.4 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:49.591 [info] Marked extension as uninstalled petersteiner.pip-installer-0.0.4
+2025-01-27 18:28:49.660 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:49.769 [info] Successfully uninstalled extension from the profile petersteiner.pip-installer@0.0.4 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:58.610 [info] Uninstalling extension from the profile: ms-python.vscode-pylance@2024.12.1 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:28:58.650 [info] Marked extension as uninstalled ms-python.vscode-pylance-2024.12.1
+2025-01-27 18:28:58.715 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:28:58.888 [info] Successfully uninstalled extension from the profile ms-python.vscode-pylance@2024.12.1 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:29:01.113 [info] Uninstalling extension from the profile: ms-python.python@2024.22.2 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:29:01.113 [info] Uninstalling extension from the profile: ms-python.debugpy@2024.14.0 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:29:01.131 [info] Extensions is already requested to uninstall ms-python.debugpy
+2025-01-27 18:29:01.143 [info] Marked extension as uninstalled ms-python.python-2024.22.2-linux-x64
+2025-01-27 18:29:01.151 [info] Marked extension as uninstalled ms-python.debugpy-2024.14.0-linux-x64
+2025-01-27 18:29:01.211 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:29:01.332 [info] Successfully uninstalled extension from the profile ms-python.python@2024.22.2 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:29:01.332 [info] Successfully uninstalled extension from the profile ms-python.debugpy@2024.14.0 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:29:08.131 [info] Uninstalling extension from the profile: streetsidesoftware.code-spell-checker@4.0.34 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json
+2025-01-27 18:29:08.175 [info] Marked extension as uninstalled streetsidesoftware.code-spell-checker-4.0.34
+2025-01-27 18:29:08.237 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/felipe/.vscode/extensions/extensions.json.vsctmp'
+    at Gm.create (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39624)
+    at xs (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39731)
+    at Vr.ib (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:22778)
+    at Vr.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:78:16010)
+    at async wh.stat (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:85488)
+    at async fh.Ab (file:///opt/visual-studio-code/resources/app/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:77:67180)
+2025-01-27 18:29:08.407 [info] Successfully uninstalled extension from the profile streetsidesoftware.code-spell-checker@4.0.34 vscode-userdata:/home/felipe/.vscode/extensions/extensions.json

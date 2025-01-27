@@ -1,0 +1,6 @@
+2025-01-25 16:42:58.400 [warning] /home/felipe/.ssh/config: ENOENT: no such file or directory, open '/home/felipe/.ssh/config'
+2025-01-25 16:42:58.400 [info] Activation> Extension version: 0.102.0
+2025-01-25 16:43:00.693 [info] Looking for git repository
+2025-01-25 16:43:00.693 [info] Found 0 repositories during activation
+2025-01-25 16:43:00.693 [info] Git repository found, initializing review manager and pr tree view.
+2025-01-25 16:43:00.694 [info] Registering git provider

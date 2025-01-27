@@ -1,0 +1,1 @@
+{"ref":"430505d1-c692-4245-b03c-0a80af2f3f9c","syncData":{"version":2,"machineId":"44412cbf-3298-43c0-a7ab-2b6393237311","content":"{\"linux\":\"// Place your key bindings in this file to override the defaults\\n[\\n    {\\n        \\\"key\\\": \\\"alt+b\\\",\\n        \\\"command\\\": \\\"workbench.action.toggleActivityBarVisibility\\\"\\n      },      \\n]\"}"}}

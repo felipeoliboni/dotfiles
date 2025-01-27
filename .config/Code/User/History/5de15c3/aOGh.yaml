@@ -1,0 +1,39 @@
+services:
+
+  front:
+    container_name: front
+    image: foliboni/craftisa:front
+    ports: 
+      - 80:3000
+    networks:
+      - craftisa
+    
+  catalogue:
+    container_name: catalogue
+    image: foliboni/craftisa:catalogue
+    ports: 
+      - 5000:5000
+    networks:
+      - craftisa
+
+  voting:
+    container_name: voting
+    image: foliboni/craftisa:voting
+    ports: 
+      - 8080:8080
+    networks:
+      - craftisa
+
+  recommendation:
+    container_name: recco
+    image: foliboni/craftisa:recom
+    ports: 
+      - 8081:8081 
+    networks:
+      - craftisa
+
+
+networks:
+  craftisa:
+      name: craftisa
+      driver: bridge

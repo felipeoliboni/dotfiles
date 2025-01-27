@@ -1,0 +1,8 @@
+2025-01-27 18:29:22.670 [info] update#setState idle
+2025-01-27 18:29:52.643 [info] update#setState checking for updates
+2025-01-27 18:29:52.954 [info] update#setState idle
+2025-01-27 18:31:34.068 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-27 18:31:34.071 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-27 18:33:40.250 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-27 18:33:40.251 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
+2025-01-27 18:33:47.861 [info] Extension host with pid 19231 exited with code: 0, signal: unknown.

@@ -1,0 +1,9 @@
+2025-01-27 18:33:49.975 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:33:49.975 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:33:49.976 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:33:50.871 [info] Started local extension host with pid 22574.
+2025-01-27 18:33:54.666 [info] Settings Sync: Token updated for the account felipeoliboni
+2025-01-27 18:33:54.707 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-27 18:33:55.764 [info] [perf] Render performance baseline is 71ms
+2025-01-27 18:43:41.939 [error] lock() request could not be registered.: Error: lock() request could not be registered.
+2025-01-27 18:49:30.916 [error] [network] #17: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled

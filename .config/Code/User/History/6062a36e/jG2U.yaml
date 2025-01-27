@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: app-env-config
+data:
+  APP_AUTHOR: "foliboni"
+  APP_NAME: "app"
+  APP_VERSION: "3.5"

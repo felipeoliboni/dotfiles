@@ -1,0 +1,22 @@
+#iamgem base
+FROM ubuntu
+
+#comandos durante a criação da imagem
+RUN apt update && apt install curl -y
+
+#seta diretorio de trabalho
+WORKDIR /app
+
+#copia arquivos para dentro do container
+COPY teste.txt .
+
+#busca arquivos remotos para adicionar ao container
+#exemplo salvando html de um site
+ADD https://felipeoliboni.github.io index.html
+
+#arquivos compactados ele joga descompactado
+ADD teste.tar.gz .
+
+#adiciona informação de metadados
+LABEL contato="foliboni@gmail.com"
+LABEL nome="Felipe"

@@ -1,0 +1,104 @@
+2025-01-27 18:21:18.538 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-vscode.vscode-selfhost-test-provider' wants API proposal 'attributableCoverage' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:21:18.538 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.python' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:21:18.538 [warning] Via 'product.json#extensionEnabledApiProposals' extension 'ms-python.debugpy' wants API proposal 'contribIssueReporter' but that proposal DOES NOT EXIST. Likely, the proposal has been finalized (check 'vscode.d.ts') or was abandoned.
+2025-01-27 18:21:19.013 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:21:19.237 [info] Started local extension host with pid 11306.
+2025-01-27 18:21:20.937 [info] Settings Sync: Token updated for the account felipeoliboni
+2025-01-27 18:21:21.407 [info] Settings Sync: Account status changed from uninitialized to available
+2025-01-27 18:21:22.442 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:21:23.827 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:21:23.895 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:21:24.161 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:21:24.968 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:21:25.137 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:21:30.559 [info] [perf] Render performance baseline is 70ms
+2025-01-27 18:21:30.980 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:21:31.143 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:21:33.974 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:21:34.124 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:22:19.880 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:22:20.114 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:22:22.355 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at _ds.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:8336)
+    at _ds.rerender (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:6797)
+    at Lje.rerender (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:15664)
+    at ky.ad (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:55062)
+    at ky.Zc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54926)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54261
+    at Set.forEach (<anonymous>)
+    at ky.Xc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54245)
+    at ky.Wc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:51754)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:51423)
+2025-01-27 18:22:26.429 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at _ds.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:8336)
+    at _ds.rerender (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:6797)
+    at Lje.rerender (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:15664)
+    at ky.ad (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:55062)
+    at ky.Zc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54926)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54261
+    at Set.forEach (<anonymous>)
+    at ky.Xc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54245)
+    at ky.Wc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:51754)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:51423)
+2025-01-27 18:22:43.800 [error] TreeError [SettingsTree] Tree element not found: [object Object]: Error: TreeError [SettingsTree] Tree element not found: [object Object]
+    at _ds.o (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:8336)
+    at _ds.rerender (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:6797)
+    at Lje.rerender (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:415:15664)
+    at ky.ad (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:55062)
+    at ky.Zc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54926)
+    at vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54261
+    at Set.forEach (<anonymous>)
+    at ky.Xc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:54245)
+    at ky.Wc (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:51754)
+    at oee.value (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1354:37861)
+2025-01-27 18:23:32.233 [error] Unable to load file:///home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json: Unable to read file '/home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json' (Error: Unable to resolve nonexistent file '/home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json'): Error: Unable to load file:///home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json: Unable to read file '/home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json' (Error: Unable to resolve nonexistent file '/home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json')
+    at U9e.Y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1328:7103)
+2025-01-27 18:23:32.435 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:23:32.595 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:23:40.638 [error] Unable to load file:///home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json: Unable to read file '/home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json' (Error: Unable to resolve nonexistent file '/home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json'): Error: Unable to load file:///home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json: Unable to read file '/home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json' (Error: Unable to resolve nonexistent file '/home/felipe/.vscode/extensions/atzinescandia.theplumup-0.0.4/themes/ThePlumUp-theme.json')
+    at U9e.Y (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:1328:7103)
+2025-01-27 18:23:43.760 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:23:43.938 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:23:53.569 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:23:53.726 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:24:01.280 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:24:01.650 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:24:03.120 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:24:03.385 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:24:03.528 [warning] Settings pattern "issueReporter.*" doesn't match any settings
+2025-01-27 18:24:03.716 [warning] Settings pattern "GitHub.copilot.manageExtension" doesn't match any settings
+2025-01-27 18:26:00.631 [info] Settings Sync: Token updated for the account felipeoliboni
+2025-01-27 18:26:14.038 [info] Settings Sync: Token updated for the account felipeoliboni
+2025-01-27 18:26:14.038 [info] Settings Sync: Token updated for the account felipeoliboni
+2025-01-27 18:26:24.646 [error] [network] #48: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-01-27 18:26:27.655 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/jamesmaj.easy-icons': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/jamesmaj.easy-icons'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:28:04.863 [error] [network] #56: https://marketplace.visualstudio.com/_apis/public/gallery/extensionquery - error POST Canceled
+2025-01-27 18:28:17.472 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/jamesmaj.easy-icons': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/jamesmaj.easy-icons'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:28:29.477 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/dbaeumer.vscode-eslint': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/dbaeumer.vscode-eslint'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:28:38.547 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/eamodio.gitlens': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/eamodio.gitlens'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:28:41.726 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/ecmel.vscode-html-css': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/ecmel.vscode-html-css'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:28:45.650 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/davidanson.vscode-markdownlint': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/davidanson.vscode-markdownlint'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:28:48.863 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/petersteiner.pip-installer': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/petersteiner.pip-installer'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:28:50.878 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/esbenp.prettier-vscode': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/esbenp.prettier-vscode'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:28:57.705 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/ms-python.vscode-pylance': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/ms-python.vscode-pylance'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)
+2025-01-27 18:29:02.387 [error] Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/ms-python.debugpy': Error: Unable to resolve nonexistent file 'vscode-userdata:/home/felipe/.config/Code/User/globalStorage/ms-python.debugpy'
+    at _ot.resolve (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:3108:60549)
+    at async BTt (vscode-file://vscode-app/opt/visual-studio-code/resources/app/out/vs/workbench/workbench.desktop.main.js:480:44682)

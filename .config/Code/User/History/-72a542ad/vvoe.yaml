@@ -1,0 +1,5 @@
+services:
+  simulador-do-caos:
+    image: kubedevio/simulador-do-caos:v1
+    ports:
+      - "8080:3000"
