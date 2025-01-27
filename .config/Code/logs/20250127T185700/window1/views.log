@@ -16,3 +16,4 @@
 2025-01-27 18:57:08.503 [info] Removed views:github-actions.empty-view from workbench.view.extension.github-actions
 2025-01-27 18:57:08.504 [info] Added views:github-actions.current-branch,github-actions.workflows,github-actions.settings in workbench.view.extension.github-actions
 2025-01-27 18:57:08.869 [info] Added views:workbench.panel.comments in workbench.panel.comments
+2025-01-27 19:33:14.477 [info] Removed views:workbench.scm.history from workbench.view.scm
