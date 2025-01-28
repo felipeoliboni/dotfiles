@@ -16,3 +16,12 @@
 2025-01-27 19:33:27.784 [info] Removed views:github-actions.empty-view from workbench.view.extension.github-actions
 2025-01-27 19:33:27.785 [info] Added views:github-actions.current-branch,github-actions.workflows,github-actions.settings in workbench.view.extension.github-actions
 2025-01-27 19:33:34.733 [info] Added views:workbench.panel.comments in workbench.panel.comments
+2025-01-27 19:48:46.039 [info] Added views:workbench.views.extensions.installed,workbench.views.extensions.popular,extensions.recommendedList in workbench.view.extensions
+2025-01-27 19:48:46.045 [info] Removed views:workbench.views.extensions.popular from workbench.view.extensions
+2025-01-27 19:48:48.239 [info] Removed views:extensions.recommendedList,workbench.views.extensions.installed from workbench.view.extensions
+2025-01-27 19:48:48.249 [info] Added views:workbench.views.extensions.marketplace in workbench.view.extensions
+2025-01-27 19:49:18.117 [info] Removed views:workbench.scm.history from workbench.view.scm
+2025-01-27 19:49:18.663 [info] Removed views:workbench.panel.repl.view from workbench.panel.repl
+2025-01-27 19:49:19.224 [info] Added views:workbench.panel.repl.view in workbench.panel.repl
+2025-01-27 19:49:23.855 [info] Added views:workbench.scm.history in workbench.view.scm
+2025-01-27 20:59:35.986 [info] Removed views:workbench.scm.history from workbench.view.scm

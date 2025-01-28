@@ -10,3 +10,25 @@
 2025-01-27 19:33:34.775 [info] Registering default platform agent...
 2025-01-27 19:33:35.214 [info] Fetched model metadata in 535ms 15ab04d4-7332-4034-81be-5d076b917e04
 2025-01-27 19:33:35.218 [info] activationBlocker from 'languageModelAccess' took for 1464ms
+2025-01-27 19:48:36.534 [info] Fetched model metadata in 659ms 205831a7-836f-4e69-a7ea-f2ed7c5def7f
+2025-01-27 19:49:22.719 [info] Using the Electron fetcher.
+2025-01-27 19:49:22.719 [info] Initializing Git extension service.
+2025-01-27 19:49:22.719 [info] Successfully activated the vscode.git extension.
+2025-01-27 19:49:22.719 [info] Enablement state of the vscode.git extension: true.
+2025-01-27 19:49:22.719 [info] Successfully registered Git commit message provider.
+2025-01-27 19:49:25.303 [info] Logged in as felipeoliboni
+2025-01-27 19:49:25.867 [info] Got Copilot token for felipeoliboni
+2025-01-27 19:49:25.980 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-27 19:49:25.980 [info] GitHub.vscode-pull-request-github extension is not yet activated.
+2025-01-27 19:49:26.176 [info] Registering default platform agent...
+2025-01-27 19:49:26.207 [info] Fetched model metadata in 325ms 813dce76-2185-440a-a777-8c88a6ad1dd2
+2025-01-27 19:49:26.291 [info] activationBlocker from 'languageModelAccess' took for 2553ms
+2025-01-27 20:04:27.758 [info] Fetched model metadata in 665ms 7df8c4e0-a120-4c29-894a-82e62adf7f4d
+2025-01-27 20:14:25.875 [info] Logged in as felipeoliboni
+2025-01-27 20:14:26.583 [info] Got Copilot token for felipeoliboni
+2025-01-27 20:14:26.591 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-27 20:29:27.246 [info] Fetched model metadata in 606ms 01baff8b-7df9-4088-bfd8-e04521e62924
+2025-01-27 20:39:26.589 [info] Logged in as felipeoliboni
+2025-01-27 20:39:27.207 [info] Got Copilot token for felipeoliboni
+2025-01-27 20:39:27.235 [info] copilot token chat_enabled: true, sku: free_educational
+2025-01-27 20:54:27.930 [info] Fetched model metadata in 684ms 7aa465f1-e9c9-4ba0-bd29-97ddef5b4e64

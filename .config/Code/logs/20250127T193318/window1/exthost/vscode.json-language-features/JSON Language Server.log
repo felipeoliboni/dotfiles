@@ -8,3 +8,5 @@
 2025-01-27 19:35:25.846 [info] schema change detected vscode://schemas/launch
 2025-01-27 19:35:25.848 [info] read schema from vscode: vscode://schemas/settings/user
 2025-01-27 19:35:25.964 [info] read schema from vscode: vscode://schemas/launch
+2025-01-27 19:49:09.425 [info] schema change detected vscode://schemas/ignoredSettings
+2025-01-27 19:49:09.644 [info] schema change detected vscode://schemas/settings/user

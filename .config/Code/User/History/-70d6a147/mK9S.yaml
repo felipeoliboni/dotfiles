@@ -1,0 +1,56 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: caotico
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: caotico
+  template:
+    metadata:
+      labels:
+        app: caotico
+    spec:
+      containers:
+      - name: caotico
+        image: registry.k8s.io/busybox
+        command:
+          - /bin/sh
+          - -c
+        args:
+          - touch /tmp/health; sleep 360;
+        ports:
+        - containerPort: 3000
+        livenessProbe:
+          exec:
+            command:
+              - cat
+              - /tmp/health
+#           httpGet:
+#             path: /health # Rota para verificar a saúde do container
+#             port: 3000 # Porta onde o container está rodando
+#             httpHeaders: # Headers que serão enviados na requisição
+#             - name: token # Nome do header
+#               value: foliboni # Valor do header
+#           initialDelaySeconds: 5 # Tempo para iniciar a verificação
+#           periodSeconds: 2 # Intervalo entre as verificações, utiliza processamento
+#           failureThreshold: 1 # Número de falhas para considerar o container como não saudável
+#           successThreshold: 1 # Número de sucessos para considerar o container como saudável
+#           timeoutSeconds: 2 # Tempo para a requisição ser considerada falha
+#           # terminationGracePeriodSeconds: 30 # Tempo para o container ser encerrado
+# ---
+apiVersion: v1
+kind: Service
+metadata:
+  name: caotico
+spec:
+  selector:
+    app: caotico
+  type: NodePort
+  ports:
+  - port: 80
+    targetPort: 3000
+    name: http
+    protocol: TCP
+    nodePort: 30000

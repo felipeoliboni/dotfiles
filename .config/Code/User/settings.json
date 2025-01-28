@@ -45,7 +45,7 @@
 "editor.renderLineHighlight": "none",
 "editor.glyphMargin": true,
 "editor.showFoldingControls": "never",
-"workbench.activityBar.location": "hidden",
 "editor.lineNumbers": "off",
 "window.commandCenter": false,
+"workbench.activityBar.location": "hidden"
 }
