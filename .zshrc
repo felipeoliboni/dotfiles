@@ -9,6 +9,7 @@ ZSH_THEME="gozilla"
 plugins=(
     git
     archlinux
+    kubectl
     zsh-autosuggestions
     zsh-syntax-highlighting
 )

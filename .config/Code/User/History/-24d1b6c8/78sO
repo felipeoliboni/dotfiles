@@ -1,4 +1,0 @@
-.gitignore
-.vscode/*
-.vscode/settings.json
-exemplos/docker/volume/postgres/
