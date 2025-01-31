@@ -35,7 +35,13 @@ alias lt='eza -a --tree --level=1 --icons'
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 source <(fzf --zsh)
 
+export PATH
+export GTK_IM_MODULE=xim
+
 HISTFILE=~/.zsh_history
 HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
+
+# Created by `pipx` on 2025-01-30 12:58:21
+export PATH="$PATH:/home/felipe/.local/bin"
