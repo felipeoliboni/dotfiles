@@ -6,7 +6,7 @@ My personal dotfiles for Linux (Hyprland). Managed with [yadm](https://yadm.io) 
 ## Contents
 
 - Shell: Zsh with [Oh My Zsh](https://ohmyz.sh/) + custom plugins
-- Editor: Code
+- Editor: NeoVim
 - Terminal: kitty
 - Hypr
 
