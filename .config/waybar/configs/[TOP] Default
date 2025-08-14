@@ -24,14 +24,14 @@
 	// "custom/cava_mviz",
 	// "custom/separator#blank",
     "hyprland/window",
-    "custom/separator#blank_2",
+    //"custom/separator#blank_2",
 	"custom/playerctl",	
 	],
 
 "modules-center": [
 	"group/app_drawer",
 	"custom/separator#blank",
-	// "group/notify",
+	//"group/notify",
 	"custom/separator#dot-line",
 	"hyprland/workspaces#rw",
 	"clock",

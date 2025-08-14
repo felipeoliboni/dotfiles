@@ -22,29 +22,6 @@ weather_icons = {
     "default": "",
 }
 
-def get_status_code(html_data):
-    try:
-        # Try multiple possible selectors to get the status code
-        region_header = html_data("#regionHeader")
-        if region_header:
-            classes = region_header.attr("class")
-            if classes:
-                for class_part in classes.split(" "):
-                    if class_part.startswith("Background--"):
-                        return class_part.split("-")[2]
-        
-        # Alternative approach if the above fails
-        current_conditions = html_data("#CurrentConditions--primary--3xWnK")
-        if current_conditions:
-            classes = current_conditions.attr("class")
-            if classes:
-                for class_part in classes.split(" "):
-                    if class_part.startswith("Background--"):
-                        return class_part.split("-")[2]
-        
-        return "default"
-    except:
-        return "default"
 
 # Get current location based on IP address
 def get_location():
@@ -53,34 +30,36 @@ def get_location():
     loc = data["loc"].split(",")
     return float(loc[0]), float(loc[1])
 
+
 # Get latitude and longitude
 latitude, longitude = get_location()
 
-# get html page
-url = "https://weather.com/en-IN/weather/today/l/38665da732d7b32b12d18054e6474b2d6c6c0ed50aac9533db0a566fc9b2605f"
+# Open-Meteo API endpoint
+#url_fetch = "https://weather.com/en-PH/weather/today/l/{latitude},{longitude}"
 
-try:
-    html_data = PyQuery(url=url)
-except:
-    # Fallback output if we can't fetch weather data
-    out_data = {
-        "text": "  N/A",
-        "alt": "Weather unavailable",
-        "tooltip": "Could not fetch weather data",
-        "class": "default",
-    }
-    print(json.dumps(out_data))
-    exit()
+# manual location_id
+# NOTE: if you want to add manually, make sure you disable def get_location above
+# to get your own location_id, go to https://weather.com & search your location.
+# once you choose your location, you can see the location_id in the URL(64 chars long hex string)
+# like this: https://weather.com/en-PH/weather/today/l/bca47d1099e762a012b9a139c36f30a0b1e647f69c0c4ac28b537e7ae9c1c200
+#location_id = ""  # TODO
+
+# NOTE to change to deg F, change the URL to your preffered location after weather.com
+# Default is English-Philippines with Busan, South Korea as location_id
+# get html page
+url = "https://weather.com/en-IN/weather/today/l/bca47d1099e762a012b9a139c36f30a0b1e647f69c0c4ac28b537e7ae9c1c200"
+
+html_data = PyQuery(url=url)
 
 # current temperature
-temp = html_data("span[data-testid='TemperatureValue']").eq(0).text() or "N/A"
+temp = html_data("span[data-testid='TemperatureValue']").eq(0).text()
 
 # current status phrase
-status = html_data("div[data-testid='wxPhrase']").text() or "Unknown"
+status = html_data("div[data-testid='wxPhrase']").text()
 status = f"{status[:16]}.." if len(status) > 17 else status
 
 # status code
-status_code = get_status_code(html_data)
+status_code = html_data("#regionHeader").attr("class").split(" ")[2].split("-")[2]
 
 # status icon
 icon = (
@@ -92,7 +71,7 @@ icon = (
 # temperature feels like
 temp_feel = html_data(
     "div[data-testid='FeelsLikeSection'] > span > span[data-testid='TemperatureValue']"
-).text() or temp
+).text()
 temp_feel_text = f"Feels like {temp_feel}c"
 
 # min-max temperature
@@ -100,36 +79,34 @@ temp_min = (
     html_data("div[data-testid='wxData'] > span[data-testid='TemperatureValue']")
     .eq(1)
     .text()
-    or "N/A"
 )
 temp_max = (
     html_data("div[data-testid='wxData'] > span[data-testid='TemperatureValue']")
     .eq(0)
     .text()
-    or "N/A"
 )
 temp_min_max = f"  {temp_min}\t\t  {temp_max}"
 
 # wind speed
-wind_speed = str(html_data("span[data-testid='Wind'] > span").text() or "N/A")
+wind_speed = str(html_data("span[data-testid='Wind'] > span").text())
 wind_text = f"  {wind_speed}"
 
 # humidity
-humidity = html_data("span[data-testid='PercentageValue']").text() or "N/A"
+humidity = html_data("span[data-testid='PercentageValue']").text()
 humidity_text = f"  {humidity}"
 
 # visibility
-visibility = html_data("span[data-testid='VisibilityValue']").text() or "N/A"
+visibility = html_data("span[data-testid='VisibilityValue']").text()
 visibility_text = f"  {visibility}"
 
 # air quality index
-air_quality_index = html_data("text[data-testid='DonutChartValue']").text() or "N/A"
+air_quality_index = html_data("text[data-testid='DonutChartValue']").text()
 
 # hourly rain prediction
 prediction = html_data("section[aria-label='Hourly Forecast']")(
     "div[data-testid='SegmentPrecipPercentage'] > span"
 ).text()
-prediction = prediction.replace("Chance of Rain", "") if prediction else ""
+prediction = prediction.replace("Chance of Rain", "")
 prediction = f"\n\n (hourly) {prediction}" if len(prediction) > 0 else prediction
 
 # tooltip text
