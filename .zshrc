@@ -30,4 +30,3 @@ HISTSIZE=10000
 SAVEHIST=10000
 setopt appendhistory
 
-export QT_QPA_PLATFORMTHEME=qt6ct
