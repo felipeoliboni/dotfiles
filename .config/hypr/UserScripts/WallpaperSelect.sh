@@ -13,7 +13,7 @@ iDIR="$HOME/.config/swaync/images"
 iDIRi="$HOME/.config/swaync/icons"
 
 # swww transition config
-FPS=60
+FPS=100
 TYPE="any"
 DURATION=2
 BEZIER=".43,1.19,1,.4"

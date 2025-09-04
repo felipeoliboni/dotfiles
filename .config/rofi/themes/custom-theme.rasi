@@ -54,11 +54,11 @@ listview {
   border-radius: 16px;
 
   margin:     12px 0 0;
-  lines:      4;
+  lines:      0;
   columns:    1;
 
   fixed-height: false;
-  require-input: true;
+  require-input: false;
 }
 
 element {
