@@ -1,3 +1,8 @@
+configuration {
+  modi: "drun"; /* Define 'drun' como um dos modos disponíveis */
+  drun-display-format: "{name}"; /* Formato de exibição: apenas o nome */
+}
+
 *{
   font:   "JetBrains Mono Nerd Font 12";
   background-color: transparent;
@@ -13,9 +18,9 @@ window {
   width: 480;
   margin: 0 0 500 0;
 
-  border-radius:  28px;
+  border-radius:  10px;
 
-  background-color:rgba(30, 30, 46, 0.9);
+  background-color:rgba(30, 30, 46, 0.5);
 }
 
 mainbox {
@@ -54,11 +59,10 @@ listview {
   border-radius: 16px;
 
   margin:     12px 0 0;
-  lines:      0;
+  lines:      5;
   columns:    1;
-
   fixed-height: false;
-  require-input: false;
+  require-input: true;
 }
 
 element {
