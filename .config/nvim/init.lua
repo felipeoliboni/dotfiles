@@ -20,7 +20,7 @@ rtp:prepend(lazypath)
 require('lazy').setup({
   { "nvim-tree/nvim-web-devicons", opts = {} },
   { "github/copilot.vim" },
-  {"nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate"},
+  { "nvim-treesitter/nvim-treesitter", branch = 'master', lazy = false, build = ":TSUpdate" },
 
   require 'plugins.snacks',
   require 'plugins.autopairs',
