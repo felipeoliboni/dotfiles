@@ -20,8 +20,23 @@ alias la='ls -a'
 alias lla='ls -la'
 alias lt='ls --tree'
 alias pacman='sudo pacman'
-alias cam='sudo modprobe v4l2loopback exclusive_caps=1 card_label="Virtual Webcam" && scrcpy --video-source=camera --no-audio --camera-facing=back --v4l2-sink=/dev/video0 --no-playback --camera-fps=60 --orientation=90'
 alias code='code --new-window --wait'
+
+alias cam='
+adb connect 192.168.1.100:5555
+if ! lsmod | grep -q v4l2loopback; then
+  sudo modprobe v4l2loopback exclusive_caps=1 card_label="Webcam"
+fi
+scrcpy \
+  --video-source=camera \
+  --camera-id=0 \
+  --camera-size=1920x1080 \
+  --camera-fps=30 \
+  --orientation=90 \
+  --v4l2-sink=/dev/video0 \
+  --no-audio \
+  --no-playback'
+
 
 
 source <(fzf --zsh)
