@@ -260,5 +260,12 @@
 "custom/arrow10": {
 	"format": "",
 	"tooltip": false
+},
+
+"custom/wayweather": {
+  "format": "{text}",
+  "exec": "wayweather --get",
+  "return-type": "json",
+  "restart-interval": 5
 }
 }
