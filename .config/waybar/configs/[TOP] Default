@@ -4,7 +4,7 @@
   "$HOME/.config/waybar/ModulesWorkspaces",
   "$HOME/.config/waybar/ModulesCustom",
   "$HOME/.config/waybar/ModulesGroups",
-  "$HOME/.config/waybar/UserModules",
+  "$HOME/.config/waybar/UserModules"
   ],
 "layer": "top",
 "exclusive": true,
@@ -20,38 +20,22 @@
 "output": "HDMI-A-1",
 
 "modules-left": [
-	// "custom/separator#blank",
-	// "custom/cava_mviz",
-	// "custom/separator#blank",
-    // "hyprland/window",
-    //"custom/separator#blank_2",
-	"custom/playerctl",	
+	"custom/playerctl"	
 	],
 
 "modules-center": [
-    //"custom/updater",
-	// "group/app_drawer",
-	//"custom/separator#blank",
-	//"group/notify",
-	//"custom/separator#dot-line",
 	"hyprland/workspaces#rw",
 	"clock",
 	"custom/separator#dot-line",
 	"custom/wayweather",
-	// "custom/separator#dot-line",
-	// "idle_inhibitor",	
-	// "custom/hint",
-    "tray",	
+    "tray"
 	],
 
 "modules-right": [
-	// "tray",
 	"network#speed",
 	"custom/separator#dot-line",
-	// "group/mobo_drawer",
-	// "custom/separator#dot-line",  
 	"group/audio",
 	"custom/separator#dot-line", 
-	"group/status",
-	],
+	"group/status"
+	]
 }
