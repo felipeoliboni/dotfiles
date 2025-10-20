@@ -4,8 +4,8 @@
   "$HOME/.config/waybar/ModulesWorkspaces",
   "$HOME/.config/waybar/ModulesCustom",
   "$HOME/.config/waybar/ModulesGroups",
-  "$HOME/.config/waybar/UserModules",
-  "$HOME/.config/waybar/hosts/${HOSTNAME}.jsonc"
+  "$HOME/.config/waybar/UserModules"
+ // "$HOME/.config/waybar/hosts/${HOSTNAME}.jsonc"
   ],
 "layer": "top",
 "exclusive": true,
@@ -18,7 +18,8 @@
 "margin-left": 1,
 "margin-right": 1,
 "margin-bottom": -10,
-//"output": "HDMI-A-1",
+"output": ["HDMI-A-1", "eDP-1"],
+
 
 "modules-left": [
 	"custom/playerctl"	
