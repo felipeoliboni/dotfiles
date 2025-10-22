@@ -1,3 +1,21 @@
 {
-  "output": "HDMI-A-1"
+"modules-left": [
+	"custom/playerctl"	
+	],
+
+"modules-center": [
+	"hyprland/workspaces#rw",
+	"clock",
+	"custom/separator#dot-line",
+	"custom/wayweather",
+    "tray"
+	],
+
+"modules-right": [
+	"network#speed",
+	"custom/separator#dot-line",
+	"group/audio",
+	"custom/separator#dot-line", 
+	"group/status"
+	]
 }
