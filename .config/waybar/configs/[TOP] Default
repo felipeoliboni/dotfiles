@@ -4,8 +4,7 @@
   "$HOME/.config/waybar/ModulesWorkspaces",
   "$HOME/.config/waybar/ModulesCustom",
   "$HOME/.config/waybar/ModulesGroups",
-  "$HOME/.config/waybar/UserModules",
-  "$HOME/.config/waybar/hosts/${HOSTNAME}.jsonc"
+  "$HOME/.config/waybar/UserModules"
   ],
 
 "layer": "top",
@@ -19,6 +18,27 @@
 "margin-left": 1,
 "margin-right": 1,
 "margin-bottom": -10,
-"output": ["HDMI-A-1", "eDP-1"]
+"output": ["HDMI-A-1", "eDP-1"],
+
+"modules-left": [
+	"custom/playerctl"	
+	],
+
+"modules-center": [
+	"hyprland/workspaces#rw",
+	"clock",
+	"custom/separator#dot-line",
+	"custom/wayweather",
+    "tray"
+	],
+
+"modules-right": [
+	"network#speed",
+	"custom/separator#dot-line",
+	"group/audio",
+	"custom/separator#dot-line", 
+	"group/status"
+	]
+
 
 }
