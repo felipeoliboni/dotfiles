@@ -1,8 +1,3 @@
-# THIS SCRIPT CAN BE DELETED ONCE SUCCESSFULLY BOOTED!! And also, edit ~/.config/hypr/configs/Settings.conf
-# NOT necessary to do since this script is only designed to run only once as long as the marker exists
-# marker file is located at ~/.config/hypr/.initial_startup_done
-# However, I do highly suggest not to touch it since again, as long as the marker exist, script wont run
-
 # Variables
 scriptsDir=$HOME/.config/hypr/scripts
 wallpaper=$HOME/.config/hypr/wallpaper_effects/.wallpaper_current

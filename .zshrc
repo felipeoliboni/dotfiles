@@ -23,7 +23,6 @@ alias pacman='sudo pacman'
 alias code='code --new-window --wait'
 
 alias cam='
-adb connect 192.168.1.100:5555
 if ! lsmod | grep -q v4l2loopback; then
   sudo modprobe v4l2loopback exclusive_caps=1 card_label="Webcam"
 fi

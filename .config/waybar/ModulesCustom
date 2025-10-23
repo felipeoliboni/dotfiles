@@ -203,7 +203,7 @@
 	"tooltip": false
 },
 "custom/separator#blank_2": {
-	"format": "  ",
+	"format": " ",
 	"interval": "once",
 	"tooltip": false
 },
