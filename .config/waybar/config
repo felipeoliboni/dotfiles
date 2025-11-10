@@ -21,10 +21,11 @@
 "output": ["HDMI-A-1", "eDP-1"],
 
 "modules-left": [
-	"custom/playerctl"	
+	"custom/waymedia"	
 	],
 
 "modules-center": [
+
 	"hyprland/workspaces#rw",
 	"clock",
 	"custom/separator#dot-line",
@@ -38,9 +39,11 @@
 	"network#speed",
 	"custom/separator#dot-line",
 	"group/audio",
-	"custom/separator#dot-line", 
+	"custom/separator#dot-line",
+    "custom/updater", 
 	"group/status"
 	]
+
 
 
 }
