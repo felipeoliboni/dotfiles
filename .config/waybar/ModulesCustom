@@ -2,7 +2,6 @@
 
 
 "custom/waymedia": {
-    // "format": "{artist}{divider}{title}",
     "exec": "~/.config/waybar/scripts/waymedia/waymedia",
     "interval": 1,
     "limit": 60,
