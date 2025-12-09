@@ -24,8 +24,9 @@ alias code='code --new-window --wait'
 
 alias cam='
 if ! lsmod | grep -q v4l2loopback; then
-  sudo modprobe v4l2loopback exclusive_caps=1 card_label="Webcam"
+  sudo modprobe v4l2loopback card_label="Webcam-Meet"
 fi
+
 scrcpy \
   --video-source=camera \
   --camera-id=0 \
@@ -34,7 +35,8 @@ scrcpy \
   --orientation=90 \
   --v4l2-sink=/dev/video0 \
   --no-audio \
-  --no-playback'
+  --no-playback
+'
 
 
 
