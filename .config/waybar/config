@@ -28,11 +28,8 @@
 
 	"hyprland/workspaces#rw",
 	"clock",
-	"custom/separator#dot-line",
-    "custom/separator#blank_2",
-	"custom/wayweather",
-    "custom/separator#dot-line",
-    "tray"
+    	"custom/separator#dot-line",
+    	"tray"
 	],
 
 "modules-right": [
