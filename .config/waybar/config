@@ -37,7 +37,8 @@
 	"custom/separator#dot-line",
 	"group/audio",
 	"custom/separator#dot-line",
-    "custom/updater",
+    "battery",
+	"custom/updater",
 	"group/status"
 	]
 
