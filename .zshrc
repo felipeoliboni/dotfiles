@@ -47,3 +47,4 @@ if [ -f '/home/felipe/google-cloud-sdk/path.zsh.inc' ]; then . '/home/felipe/goo
 
 # The next line enables shell command completion for gcloud.
 if [ -f '/home/felipe/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/felipe/google-cloud-sdk/completion.zsh.inc'; fi
+export PATH=$HOME/.local/bin:$PATH
