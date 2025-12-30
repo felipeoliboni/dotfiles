@@ -4,7 +4,6 @@
   "$HOME/.config/waybar/ModulesWorkspaces",
   "$HOME/.config/waybar/ModulesCustom",
   "$HOME/.config/waybar/ModulesGroups",
-  "$HOME/.config/waybar/UserModules"
   ],
 
 "layer": "top",
@@ -21,15 +20,15 @@
 "output": ["HDMI-A-1", "eDP-1"],
 
 "modules-left": [
-	"custom/waymedia"	
+	"custom/waymedia"
 	],
 
 "modules-center": [
-
 	"hyprland/workspaces#rw",
 	"clock",
-    	"custom/separator#dot-line",
-    	"tray"
+    "custom/separator#dot-line",
+    "custom/updater",
+    "tray"
 	],
 
 "modules-right": [
@@ -38,10 +37,7 @@
 	"group/audio",
 	"custom/separator#dot-line",
     "battery",
-	"custom/updater",
+    "bluetooth",
 	"group/status"
 	]
-
-
-
 }

@@ -1,6 +1,5 @@
 
 {
-// NUMBERS and ICONS style with window rewrite 
 "hyprland/workspaces#rw": {
 	"disable-scroll": true,
 	"all-outputs": true,
@@ -12,11 +11,11 @@
 	"on-scroll-down": "hyprctl dispatch workspace e-1",
     "persistent-workspaces": {
       "*": [1, 2, 3, 4, 5]
-	},  
+	},
 	"format": "{icon} {windows}",
 	"format-window-separator": " ",
 	"window-rewrite-default": " ",
-	"window-rewrite": {		
+	"window-rewrite": {
 		"title<.*amazon.*>": " ",
 		"title<.*reddit.*>": " ",
 
@@ -55,7 +54,7 @@
 
 		"class<mpv>": " ",
 		"class<celluloid|Zoom>": " ",
-		"class<Cider>": "󰎆 ",
+		"class<Cider>": " ",
 		"title<.*Picture-in-Picture.*>": " ",
 		"title<.*youtube.*>": " ",
 		"class<vlc>": "󰕼 ",
@@ -76,6 +75,8 @@
 		"class<libreoffice-startcenter>": "󰏆 ",
 		"class<libreoffice-calc>": " ",
 		"title<.*nvim ~.*>": " ",
+		"title<.*cider ~.*>": " ",
+
 		"title<.*vim.*>": " ",
 		"title<.*nvim.*>": " ",
 		"title<.*figma.*>": " ",
@@ -88,12 +89,12 @@
 		"class<nwg-look>": " ",
 
 		"class<steam>": " ",
-		"class<thunar|nemo>": "󰝰 ",	
+		"class<thunar|nemo>": "󰝰 ",
 		"class<gimp>": " ",
 		"class<emulator>": "📱 ",
 		"class<android-studio>": " ",
-        
-		}   
+
+		}
 	}
 
 }
