@@ -1,6 +1,6 @@
 {
 "custom/waymedia": {
-    "exec": "~/.config/waybar/scripts/waymedia/waymedia",
+    "exec": "~/.config/waybar/waymedia.py",
     "interval": 1,
     "limit": 60,
     "on-click": "playerctl play-pause",
