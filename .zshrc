@@ -40,11 +40,3 @@ SAVEHIST=10000
 setopt appendhistory
 
 
-export PATH=$PATH:/home/felipe/.spicetify
-
-# The next line updates PATH for the Google Cloud SDK.
-if [ -f '/home/felipe/google-cloud-sdk/path.zsh.inc' ]; then . '/home/felipe/google-cloud-sdk/path.zsh.inc'; fi
-
-# The next line enables shell command completion for gcloud.
-if [ -f '/home/felipe/google-cloud-sdk/completion.zsh.inc' ]; then . '/home/felipe/google-cloud-sdk/completion.zsh.inc'; fi
-export PATH=$HOME/.local/bin:$PATH
