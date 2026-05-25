@@ -2,7 +2,6 @@
 
 Um setup minimalista, estético e funcional baseado no **Hyprland**, rodando sobre o **CachyOS**. Este ambiente foi construído focando em produtividade e uma identidade visual coesa (Noctalia).
 
-![Banner](https://raw.githubusercontent.com/catppuccin/catppuccin/main/assets/banners/dotfiles.webp) *(Sugestão: Adicione um screenshot real aqui)*
 
 ## 🛠️ Stack Tecnológica
 
